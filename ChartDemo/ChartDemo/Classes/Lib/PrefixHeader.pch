@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  ChartDemo
+//
+//  Created by yhj on 2017/3/6.
+//  Copyright © 2017年 cdnunion. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ZFChart.h"
+
+
+#define kmargin         10
+
+// 屏幕
+#define APPW [UIScreen mainScreen].bounds.size.width
+#define APPH [UIScreen mainScreen].bounds.size.height
+
+// 颜色(RGB)
+#define RGBCOLOR(r,g,b)     [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+
+#define RGBACOLOR(r,g,b,a)  [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+
+#endif /* PrefixHeader_pch */

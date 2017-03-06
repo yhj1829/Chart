@@ -1,0 +1,8 @@
+target 'ChartDemo' do
+
+pod 'Masonry'
+pod 'MJExtension'
+pod 'SDWebImage'
+
+
+end
